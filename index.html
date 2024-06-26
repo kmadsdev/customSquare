@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <script src="script.js"></script>
+    <title>color</title>
+</head>
+<body>
+    <center>
+        <div class="box" id="box"></div>
+
+        <p><input type="text" class="values" id="values" maxlength="50"></p>
+
+        <input type="text" class="values" id="gradientValues" maxlength="50">
+        
+        <p class="margin"></p>
+
+        <button class="reset" onclick="reset()">Reset</button>
+        
+        <p class="sep"></p>
+
+        <h2>Color picker:</h2>
+        <input class="colorPicker" type="color" value="#ffffff">
+        <p><div class="textBox" id="textBox">Color: </div></p>
+        <button class="setColor" onclick="setColor()">Set color to box</button>
+
+        <p>Color: Color names: red, blue or green; hexa: #000000 or #ffffff; RGB: rgb(0,125,255)</p>
+        <p>Radius (Thickness): Pixels (Npx): 25px or 5px; Percentage (N%): 25% or 5%</p>
+        <p>Height and Width: Pixels (Npx): 500px or 250px; Percentage (N%): 50% or 100%</p>
+        <p>You can skip values: #1010;25px;red;;; this will set the Border Thickness, Height and Width to default</p>
+        <br>
+        <p class="waterMark">Made by <a class="waterMark" href="https://github.com/kmadsdev">KMADS</a></p>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

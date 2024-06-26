@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+div.box {
+    height: 500px;
+    width: 500px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: white;
+    background: white;
+    transition: 0.5s linear;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+input.values {
+    height: 50px;
+    width: 498px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: black;
+    margin-top: 10px;
+    font-size: 150%;
+}
+
+p.sep {
+    height: 200px;
+}
+
+p.margin {
+    height: 1px;
+}
+
+.waterMark {
+    color: gray;
+}
+
+button.reset {
+    height: 50px;
+    width: 500px;
+    font-size: 125%;
+    font-style: oblique;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+button.setColor {
+    height: 30px;
+    width: 240px;
+    font-size: 20px;
+    font-style: oblique;
+    color: black;
+}
+
+div.textBox {
+    color: black;
+    background: white;
+    height: 30px;
+    width: 240px;
+}
+
+input.colorPicker {
+    color: rgb(119, 119, 119);
+    background: none;
+    border: none;
+    height: 240px;
+    width: 250px;
+}
+
+strong {
+    font-size: 110%;
+}
